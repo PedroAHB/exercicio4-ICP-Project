@@ -81,7 +81,6 @@ actor {
         return contador;
     };
 
-    // NOVA FUNÇÃO: Retorna o total de tarefas concluídas
     public func totalTarefasConcluidas() : async Nat {
         var contador : Nat = 0;
         for (tarefa in tarefas.vals()) {
